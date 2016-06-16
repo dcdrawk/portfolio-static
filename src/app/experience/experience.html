@@ -1,10 +1,10 @@
 <!-- <div class="page-background experience-background"></div> -->
-<div class="heading animate-fade-in animate-move-up" animate-on-load>
-  <h2 class="md-display-1 container">Experience</h2>
+<div class="heading animate-fade-in animate-move-up container" animate-on-load>
+  <h2 class="md-display-1">Experience</h2>
 </div>
-<section class="container">
+<section class="container" ng-if="vm.showExperience">
   <div layout="column" layout-fill layout-wrap class="clear-both">
-    
+
     <md-card class="md-padding no-margin-h animate-move-up animate-fade-in" flex="100" animate-on-load>
       <div class="animate-repeat" layout="column" ng-repeat="experience in vm.experienceList | orderBy: 'order'">
         <div class="experience-card-text">

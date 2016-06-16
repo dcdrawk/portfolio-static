@@ -29,7 +29,7 @@
     function staggerPage() {
       //Animate the intro text
       $timeout(function(){
-        vm.showProjectList = true;
+        vm.showExperience = true;
       }, 250)
     }
   }

@@ -11,7 +11,7 @@
     var exports = {
       get: get
     };
-    
+
 
     return exports;
 
@@ -20,7 +20,8 @@
     function get(url) {
       return $http({
         method: 'GET',
-        url: url
+        url: url,
+        cache: true
       }).then(function(response){
         return response.data;
       });

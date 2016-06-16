@@ -1,5 +1,0 @@
-{ 
-    "_id" : "HaMMiMNwuo46rb3jnyCK9qWwNySu9zYv", 
-    "session" : "{\"cookie\":{\"originalMaxAge\":86400000,\"expires\":\"2016-06-15T05:30:08.767Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\"},\"passport\":{}}", 
-    "expires" : ISODate("2016-06-15T05:30:08.767+0000")
-}
