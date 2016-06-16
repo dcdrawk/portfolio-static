@@ -52,3 +52,25 @@
     }
   }
 }
+
+.portfolio-content {
+  h4 {
+    margin-bottom: 0px;
+  }
+}
+
+@media(max-width: 600px) {
+  .portfolio-image {
+    img {
+      top: -125px!important;
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  .portfolio-image {
+    img {
+      top: -50px!important;
+    }
+  }
+}

@@ -15,7 +15,7 @@
         <a class="md-whiteframe-z1" ob-lazytube href="{{vm.project.youtubeLink}}">The Sandwich</a>
       </div>
     </div>
-    <md-card class="md-padding no-margin-h" layout="row" layout-wrap layout-align="center start">
+    <md-card class="md-padding no-margin-h portfolio-content" layout="row" layout-wrap layout-align="center start">
       <div layout="row" layout-wrap>
 
         <div ng-if="vm.project.type == 'project' && vm.project.picture" flex="33" class="padding-r padding-b">
@@ -26,7 +26,7 @@
         </div>
         <div flex class="card-content">
           <div ng-bind-html="vm.project.content"></div>
-          <md-button ng-if="vm.project.githubLink" href="{{vm.project.githubLink}}" target="_blank" class="md-raised">View on Github</md-button>
+          <md-button ng-if="vm.project.githubLink" href="{{vm.project.githubLink}}" target="_blank" class="md-raised no-margin-l">View on Github</md-button>
           <md-button ng-if="vm.project.appLink" href="{{vm.project.appLink}}" target="_blank"  class="md-primary md-raised">Launch App</md-button>
         </div>
       </div>
@@ -36,7 +36,6 @@
         <md-chips ng-model="vm.project.roles" readonly="true"></md-chips>
       </div>
       <div flex="100">
-        <md-divider></md-divider>
         <h4 class="md-title">Tags</h4>
         <md-chips ng-model="vm.project.tags" readonly="true"></md-chips>
       </div>

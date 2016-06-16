@@ -37,36 +37,36 @@
       //Animate the intro header
       $timeout(function(){
         vm.showDesign = true;
-      }, 0)
+      }, 200)
 
       //Animate the intro text
       $timeout(function(){
         vm.showCreate = true;
-      }, 200)
+      }, 600)
 
       //Animate the skills heading
       $timeout(function(){
         vm.showInspire = true;
-      }, 400)
+      }, 1000)
 
       $timeout(function(){
         vm.showIntroHeading = true;
-      }, 800)
+      }, 1400)
 
       //Animate the intro text
       $timeout(function(){
         vm.showIntroText = true;
-      }, 1000)
+      }, 1600)
 
       //Animate the skills heading
       $timeout(function(){
         vm.showSkillsHeading = true;
-      }, 1200)
+      }, 1800)
 
       //Animate the skills list
       $timeout(function(){
         vm.showSkillsList = true;
-      }, 1500)
+      }, 2000)
     }
   }
 })();

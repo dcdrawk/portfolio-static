@@ -1,7 +1,7 @@
-<div class="container animate-move-up" animate-on-load >
+<div class="container" animate-on-load >
   <h1 class="md-display-1 motto center-text">
     <div class="motto-text faded-text">
-      <span class="animate-move-up" animate-on-load ng-if="vm.showDesign">
+      <span class="animate-fade-in" animate-on-load ng-if="vm.showDesign">
         Design,
       </span>
       <span class="animate-fade-in" animate-on-load ng-if="vm.showCreate">
@@ -33,20 +33,23 @@
     <md-card class="no-margin-h skills-list animate-move-up animate-fade-in" animate-on-load  ng-if="vm.showSkillsList">
       <md-card-content>
         <section class="skills-list">
-          <div layout="row" >
-            <div flex="25">
+          <div layout="column" layout-gt-xs="row" layout-wrap>
+            <div flex="25" flex-sm="50" flex-xs="100">
               <p class="md-title">Web</p>
               <p ng-repeat="skill in vm.webSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
-            <div flex="25">
+            <md-divider flex="100" hide-gt-xs></md-divider>
+            <div flex="25" flex-sm="50" flex-xs="100">
               <p class="md-title">Design</p>
               <p ng-repeat="skill in vm.designSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
-            <div flex="25">
+            <md-divider flex="100" hide-gt-xs></md-divider>
+            <div flex="25" flex-sm="50" flex-xs="100">
               <p class="md-title">Development</p>
               <p ng-repeat="skill in vm.developmentSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
-            <div flex="25">
+            <md-divider flex="100" hide-gt-xs></md-divider>
+            <div flex="25" flex-sm="50" flex-xs="100">
               <p class="md-title">Digital Media</p>
               <p ng-repeat="skill in vm.digitalMediaSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
