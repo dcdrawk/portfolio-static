@@ -1,18 +1,7 @@
 <section class="container">
-  <div class="page-heading animate-fade-in" animate-on-load>
-
+  <div class="page-heading animate-fade-in animate-move-up" animate-on-load>
     <!-- Portfolio Heading / Date -->
     <h2 class="md-display-1" ng-bind="vm.project.title"></h2>
-
-    <!-- Content Edit Buttons -->
-    <div class="content-buttons" ng-show="vm.authentication.user._id == vm.project.user._id">
-      <md-button class="md-accent md-raised" ng-if="vm.authentication.user" ng-click="vm.edit(vm.project);">
-        edit
-      </md-button>
-      <md-button class="md-warn md-raised" ng-if="vm.authentication.user" ng-click="vm.remove();">
-        delete
-      </md-button>
-    </div>
 
     <h2 class="md-title" ng-bind="vm.project.subtitle"></h2>
     <span ng-bind="vm.project.date"></span>
@@ -20,7 +9,7 @@
   <div class="clearfix"></div>
 
   <!-- Portfolio Content -->
-  <div layout="column" class="animate-fade-in" animate-on-load>
+  <div layout="column" class="animate-fade-in animate-move-up" animate-on-load ng-if="vm.showProject">
     <div layout="row" layout-wrap layout-align="center start" animate-on-load>
       <div flex="66" class="md-whiteframe-z1" ng-if="vm.project.youtubeLink">
         <a class="md-whiteframe-z1" ob-lazytube href="{{vm.project.youtubeLink}}">The Sandwich</a>

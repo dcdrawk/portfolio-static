@@ -8,26 +8,29 @@
 //  WebsitesController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function WebsitesController(dataService, $timeout){
+  function WebsitesController(dataService, websiteService, $timeout){
     var vm = this;
+
+    vm.getUrl = function(title) {
+      return websiteService.getUrl(title);
+    }
+
     activate();
 
     ////////////////
 
     function activate() {
-      getWebsites();
       staggerPage();
-
-    }
-
-    function getWebsites() {
-      dataService.get('/data/websites.json').then(function(data){
-        console.log(data);
-        vm.websites = data;
-      });
+      if(websiteService.websites)
+        vm.websites = websiteService.websites;
+      else
+        websiteService.getWebsites().then(function(websites){
+          vm.websites = websites;
+        });
     }
 
     function staggerPage() {
+      //Animate the intro text
       $timeout(function(){
         vm.showWebsiteList = true;
       }, 250)

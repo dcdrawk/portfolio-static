@@ -25,12 +25,13 @@
     function staggerPage() {
       //Animate the intro text
       $timeout(function(){
-        vm.showProjectList = true;
+        vm.showProject = true;
       }, 250);
     }
 
     function getProject(projectName, projects) {
-      for(var project of projects) {
+      for(var i in projects) {
+        var project = projects[i];
         if(projectService.getUrl(project.title) === projectName) {
           return project;
         }

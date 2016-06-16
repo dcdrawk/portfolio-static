@@ -21,7 +21,6 @@
       .state('root.projects.view', {
         url: '/:projectName',
         params: {
-            // projectName: null,
             project: null
         },
         views: {

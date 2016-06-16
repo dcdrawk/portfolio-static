@@ -19,6 +19,19 @@
             controllerAs: 'vm'
           }
         }
+      })
+      .state('root.websites.view', {
+        url: '/:websiteName',
+        params: {
+            website: null
+        },
+        views: {
+          'container@': {
+            templateUrl: 'app/websites/websites.view.html',
+            controller: 'WebsitesViewController',
+            controllerAs: 'vm'
+          }
+        }
       });
 
     $urlRouterProvider.otherwise('/');
