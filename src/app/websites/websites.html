@@ -5,13 +5,6 @@
   <div layout="row" layout-fill layout-wrap class="clear-both">
     <div class="animate-repeat animate-move-up animate-fade-in" flex="33" flex-xs="100" flex-sm="100"
       ng-repeat="website in vm.websites | orderBy: 'position'" animate-on-load>
-      <!-- <md-card ui-sref="#" class="md-padding portfolio-card" layout="row" layout-align="start end"
-       layout-wrap style="background: url({{website.cardImgSrc}}); background-size: 100% 175%; background-position: center;" ng-if="website">
-        <div class="portfolio-card-text md-padding" flex="100">
-          <h4 class="md-title" ng-bind="website.title"></h4>
-          <h5 class="md-subhead" ng-bind="website.subtitle"></h5>
-        </div>
-      </md-card> -->
       <md-card ui-sref="#" class="md-padding portfolio-card" layout="row" layout-align="start end"
        layout-wrap ng-if="website">
         <div class="portfolio-image">

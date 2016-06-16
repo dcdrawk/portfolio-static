@@ -12,9 +12,7 @@
         url: '/projects',
         views: {
           'container@': {
-//            templateUrl: 'app/main/main.html',
             templateUrl: 'app/projects/projects.html',
-
             controller: 'ProjectsController',
             controllerAs: 'vm'
           }

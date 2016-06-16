@@ -1,6 +1,13 @@
 body, md-content {
   min-height: 100vh;
 }
+body {
+  overflow: visible;
+}
+
+md-content {
+  overflow: hidden;
+}
 .container {
   max-width: 1200px;
   display: block;
