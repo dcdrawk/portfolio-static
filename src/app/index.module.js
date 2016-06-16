@@ -10,7 +10,8 @@
       'ngAria',
       'ui.router',
       'ngMaterial',
-      'toastr'
+      'toastr',
+      'oblador.lazytube'
      ]);
 
 })();

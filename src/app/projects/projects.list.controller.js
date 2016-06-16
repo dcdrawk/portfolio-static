@@ -8,22 +8,25 @@
 //  ProjectsController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ProjectsController(dataService, $timeout){
+  function ProjectsController(dataService, projectService, $timeout){
     var vm = this;
+
+    vm.getUrl = function(title) {
+      return projectService.getUrl(title);
+    }
 
     activate();
 
     ////////////////
 
     function activate() {
-      getProjects();
       staggerPage();
-    }
-
-    function getProjects() {
-      dataService.get('/data/projects.json').then(function(data){
-        vm.projects = data;
-      });
+      if(projectService.projects)
+        vm.projects = projectService.projects;
+      else
+        projectService.getProjects().then(function(projects){
+          vm.projects = projects;
+        });
     }
 
     function staggerPage() {

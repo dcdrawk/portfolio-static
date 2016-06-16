@@ -5,7 +5,7 @@
   <div layout="row" layout-fill layout-wrap class="clear-both">
     <div class="animate-repeat animate-move-up animate-fade-in" flex="33" flex-xs="100" flex-sm="100"
       ng-repeat="project in vm.projects | orderBy: 'position'" animate-on-load>
-      <md-card ui-sref="#" class="md-padding portfolio-card" layout="row" layout-align="start end"
+      <md-card ui-sref="root.projects.view({projectName: vm.getUrl(project.title), project: project})" class="md-padding portfolio-card" layout="row" layout-align="start end"
        layout-wrap ng-if="project">
         <div class="portfolio-image">
           <img ng-src="{{project.cardImgSrc}}"/>

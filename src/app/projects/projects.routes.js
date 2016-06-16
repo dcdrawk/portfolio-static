@@ -17,6 +17,20 @@
             controllerAs: 'vm'
           }
         }
+      })
+      .state('root.projects.view', {
+        url: '/:projectName',
+        params: {
+            // projectName: null,
+            project: null
+        },
+        views: {
+          'container@': {
+            templateUrl: 'app/projects/project.view.html',
+            controller: 'ProjectViewController',
+            controllerAs: 'vm'
+          }
+        }
       });
 
     $urlRouterProvider.otherwise('/');
