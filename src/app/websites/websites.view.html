@@ -25,7 +25,7 @@
         <div ng-if="vm.website.type == 'website' && vm.website.picture" flex="50" class="padding-r padding-b">
           <img ng-cloak src="{{vm.website.picture}}"/>
         </div>
-        <div flex>
+        <div flex class="card-content">
           <div ng-bind-html="vm.website.content"></div>
           <md-button ng-if="vm.website.githubLink" href="{{vm.website.githubLink}}" target="_blank" class="md-raised">View on Github</md-button>
           <md-button ng-if="vm.website.appLink" href="{{vm.website.appLink}}" target="_blank"  class="md-primary md-raised">Launch App</md-button>
