@@ -33,16 +33,20 @@
     <md-card class="no-margin-h skills-list animate-move-up animate-fade-in" animate-on-load  ng-if="vm.showSkillsList">
       <md-card-content>
         <section class="skills-list">
-          <div layout="row">
-            <div flex="33" class="center-text">
+          <div layout="row" >
+            <div flex="25">
               <p class="md-title">Web</p>
-              <p ng-repeat="skill in vm.softwareSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+              <p ng-repeat="skill in vm.webSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
-            <div flex="33" class="center-text">
+            <div flex="25">
               <p class="md-title">Design</p>
               <p ng-repeat="skill in vm.designSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>
-            <div flex="33" class="center-text">
+            <div flex="25">
+              <p class="md-title">Development</p>
+              <p ng-repeat="skill in vm.developmentSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+            </div>
+            <div flex="25">
               <p class="md-title">Digital Media</p>
               <p ng-repeat="skill in vm.digitalMediaSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
             </div>

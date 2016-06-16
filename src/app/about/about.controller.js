@@ -27,8 +27,9 @@
       dataService.get('/data/about.json').then(function(data){
         vm.intro = data.intro;
         vm.designSkills = data.designSkills;
-        vm.digitalMediaSkills = data.multiMediaSkills;
-        vm.softwareSkills = data.softwareSkills;
+        vm.digitalMediaSkills = data.digitalMediaSkills;
+        vm.webSkills = data.webSkills;
+        vm.developmentSkills = data.developmentSkills;
       });
     }
 

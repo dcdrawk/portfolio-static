@@ -1,9 +1,11 @@
 .intro-text {
   margin-bottom: 2em;
   p {
-    :first-child,
-    :last-child {
-      margin:0;
+    &:first-child {
+      margin-top:0;
+    }
+    &:last-child {
+      margin-bottom:0;
     }
   }
 }
@@ -13,7 +15,7 @@
   }
 }
 .motto {
-  margin: 2em 0;
+  margin: 1em 0;
   .motto-text {
     text-align: left;
     display: inline-block;
