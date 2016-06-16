@@ -1,0 +1,32 @@
+[{
+    "result" : "result",
+    "role" : "Responsible for creating promotional web and print material for Health and Counselling Services. This included a campaign to promote a student health survey as well as updating the HCS website to use a new content management system. I also created 1-page information sheets, posters, and web banners.",
+    "company" : "Simon Fraser University",
+    "date" : "January - August 2012",
+    "position" : "Marketing & Communications Assistant",
+    "order" : "3"
+},
+{
+    "result" : "dasdsafa",
+    "role" : "Developed and maintained websites for the BIA, including surreymarathon.com, surreycitycentre.ca, surreyfest.com, and downtownsurreybia.com. Designed graphics for web and print materials (such as newspaper ads, logos, banners, posters, newsletters, and flyers) to promote events and campaigns.",
+    "company" : "Downtown Surrey Business Improvement Association",
+    "date" : "Fall 2013",
+    "position" : "Web & Graphic Design Intern",
+    "order" : "2"
+},
+{
+    "result" : "The redesign was a huge improvement in terms of user-experience and aesthetics. Search Engine Optimization improved our Google search rank, increasing traﬃc to the website. Website and image optimization decreased load times by 30%, enhancing user-retention.",
+    "role" : "Responsible for the planning and development of the organization’s website, esebc.ca. Created sketches, prototypes, and wireframes to communicate my design vision. Developed a custom WordPress theme from scratch using PHP, HTML, CSS, and JavaScript.",
+    "company" : "The Center for Epilepsy  and Seizure Education in BC",
+    "date" : "May - August 2014",
+    "position" : "Web Design and Marketing Coordinator",
+    "order" : "2"
+},
+{
+    "result" : "Responsible for implementing API routes to communicate with a database using PHP and YAML following an MVC design pattern. Designed views with HTML and SASS, while using AngularJS to retrieve data and add functionality.",
+    "role" : "Brought in on a contract basis to assist with building a custom web software application to replace their existing system. Worked directly with the Software Architect to design and implement a wide variety of features. These included invoices, inventory management, time sheet entry, and other business features.",
+    "company" : "Phoenix Restorations",
+    "date" : "September 2015",
+    "position" : "Jr. Front End Developer",
+    "order" : "0"
+}]
