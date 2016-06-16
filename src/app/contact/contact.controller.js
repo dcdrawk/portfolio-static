@@ -8,8 +8,12 @@
 //  ContactController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ContactController($rootScope, dataService, $timeout){
+  function ContactController($rootScope, dataService, contactService, $timeout){
     var vm = this;
+
+    vm.sendMessage = function() {
+      contactService.sendMessage(vm.message);
+    };
 
     activate();
 

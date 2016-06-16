@@ -9,7 +9,8 @@
   /* @ngInject */
   function  dataService($http){
     var exports = {
-      get: get
+      get: get,
+      post: post
     };
 
 
@@ -22,6 +23,16 @@
         method: 'GET',
         url: url,
         cache: true
+      }).then(function(response){
+        return response.data;
+      });
+    }
+
+    function post(url, params) {
+      return $http({
+        method: 'POST',
+        url: url,
+        params: params
       }).then(function(response){
         return response.data;
       });

@@ -6,10 +6,9 @@
 <section class="container margin-top animate-fade-in animate-move-up"  animate-on-load ng-if="vm.showContactInfo">
 
   <div ng-if="vm.contact">
-    <md-card class="no-margin-h">
+    <md-card class="no-margin-h contact-info">
       <md-card-content layout="row">
         <div flex="33">
-
         <p class="md-title no-margin-v">
           Email
         </p>
@@ -34,25 +33,53 @@
         <p>
           {{vm.contact.address}}
         </p>
-
-        <md-button ng-show="vm.authentication.user" class="no-margin" ui-sref="contact-edit({ 'contactId': vm.contact._id })">Edit</md-button>
+        <div class="social-accounts">
+          <md-button href="{{vm.contact.facebook}}" target="_blank" class="md-icon-button facebook" aria-label="More">
+            <md-icon md-svg-icon="/assets/images/icons/facebook-box.svg"></md-icon>
+          </md-button>
+          <md-button href="{{vm.contact.googlePlus}}" target="_blank" class="md-icon-button googlePlus" aria-label="More">
+            <md-icon md-svg-icon="/assets/images/icons/google-plus-box.svg"></md-icon>
+          </md-button>
+          <md-button href="{{vm.contact.linkedIn}}" target="_blank" class="md-icon-button linkedIn" aria-label="More">
+            <md-icon md-svg-icon="/assets/images/icons/linkedIn-box.svg"></md-icon>
+          </md-button>
+          <md-button href="{{vm.contact.github}}" target="_blank" class="md-icon-button github" aria-label="More">
+            <md-icon md-svg-icon="/assets/images/icons/github-box.svg"></md-icon>
+          </md-button>
+        </div>
       </div>
       <div flex="66" layout="row" layout-wrap>
         <p class="md-title no-margin-v" flex="100">
           Send me a message
         </p>
+        <form name="contactForm" flex="100" layout="row" layout-wrap>
+          <md-input-container flex="100">
+            <label>Your Name</label>
+            <input name="name" type="text" ng-model="vm.message.name" id="name" required>
+            <div ng-messages="contactForm.name.$error">
+              <div ng-message="required">This is required.</div>
+            </div>
+          </md-input-container>
+          <md-input-container flex="100">
+            <label>Your Email</label>
+            <input name="email" type="email" ng-model="vm.message.email" id="email" required>
+            <div ng-messages="contactForm.email.$error">
+              <div ng-message="email">This field must be a valid email address.</div>
+              <div ng-message="required">This is required.</div>
+            </div>
+          </md-input-container>
+          <md-input-container flex="100">
+            <label>Message</label>
+            <textarea name="message" type="text" ng-model="vm.message.message" id="message" required></textarea>
+            <div ng-messages="contactForm.message.$error">
+              <div ng-message="required">This is required.</div>
+            </div>
+          </md-input-container>
+          <div  flex="100">
+            <md-button class="md-primary md-raised" ng-click="vm.sendMessage()" ng-disabled="contactForm.$invalid" >send</md-button>
+          </div>
+        </form>
 
-        <md-input-container flex="100">
-          <label>Subject</label>
-          <input name="subject" type="text" ng-model="vm.message.subject" id="subject">
-        </md-input-container>
-        <md-input-container flex="100">
-          <label>Message</label>
-          <textarea name="subject" type="text" ng-model="vm.message.text" id="subject"></textarea>
-        </md-input-container>
-        <div  flex="100">
-          <md-button class="md-primary md-raised" ng-click="vm.sendMessage()">send</md-button>
-        </div>
       </div>
       </md-card-content>
     </md-card>

@@ -18,9 +18,9 @@
     ////////////////
 
     function activate() {
+      $rootScope.activeTab = 'Home';
       getAboutInfo();
       staggerPage();
-      $rootScope.activeTab = 'Home';
     }
 
     function getAboutInfo() {
