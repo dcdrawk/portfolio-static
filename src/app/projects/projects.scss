@@ -1,0 +1,51 @@
+.portfolio-gallery {
+  img {
+    height: 100%;
+  }
+}
+
+.portfolio-card {
+  height:200px;
+  padding: 0;
+  cursor: pointer;
+  transition: all .5s cubic-bezier(0.215,.61,.355,1);
+  // transition: background-size .5s cubic-bezier(0.215,.61,.355,1);
+
+  &:hover {
+    // background-size: 107% 190%!important;
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.portfolio-card-text {
+  color: #fff;
+  background-color: rgba(0,0,0,.24);
+  z-index: 1;
+}
+
+.sandwich {
+  // background-image: url('http://thewebdev.ca/images/projects/thumbs/sandwich.jpg');
+}
+
+.portfolio-image {
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  position: absolute;
+  overflow: hidden;
+  top: 8px;
+  img {
+    width: 100%;
+    top: -75px;
+    position: relative;
+    transform: scale(1);
+    transition: all .5s cubic-bezier(0.215,.61,.355,1);
+
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}

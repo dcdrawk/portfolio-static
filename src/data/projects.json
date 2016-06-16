@@ -1,0 +1,157 @@
+[{
+
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">With a small group, I assisted with the production of a 3D animated short film. Working with Autodesk Maya, we crafted everything from scratch to make a comical and memorable animation.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">Our animated short began with a series of simple sketches as we finalized our narrative. After, we collaborated together to model, texture, light, and animate our scene. After rendering each frame, we put on the final touches before presenting it to the class. Every model had to me made from scratch, and we put our knowledge of modeling and rigging to the test.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">The Sandwich was screened in front of the class and received an A. It was applauded for it's use of lighting, animation, and character rigging.</p>",
+    "title" : "The Sandwich",
+
+    "software" : [
+
+    ],
+    "tags" : [
+        "3D Modeling",
+        "3D Animation",
+        "Autodesk Maya"
+    ],
+    "subtitle" : "3D Animated Short",
+    "date" : "Fall 2012",
+    "youtubeLink" : "https://www.youtube.com/watch?v=MLEdSgTkL8Y",
+    "roles" : [
+        "Animator",
+        "Lighting",
+        "Rigging",
+        "Prototyping"
+    ],
+    "cardImgSrc" : "/assets/images/projects/sandwich.jpg",
+    "order" : "3",
+    "position" : "2",
+    "appLink" : "",
+    "githubLink" : "",
+    "picture" : "",
+    "type" : "project"
+},
+{
+
+    "roles" : [
+        "Level Designer",
+        "Programmer",
+        "3D Modelling"
+    ],
+    "tags" : [
+        "Unity",
+        "Javascript",
+        "Motion Controls"
+    ],
+    "youtubeLink" : "https://youtu.be/iZy9xFdDFSE?list=PLdl_zQizF3AQl3KToNLRlOMif2pBIgvhR",
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">Using the 3D development platform Unity, my group set out to create an interactive immersive experience. Our unique world let players explore a UFO abduction using Wii motion controls.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">After brainstorming our idea, we began by sketching out our framework. Once we were satisfied, we began modelling and gathering assets for our project. As we were constructing our game world, we did multiple user tests to make sure the experience was fun and bug-free.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">Our project was featured in a class showcase at SFU's Surrey Campus and received a mark of 24/25.!!!</p>",
+    "date" : "Spring 2013",
+    "subtitle" : "Motion Controlled 3D World",
+    "title" : "UFOria",
+
+    "cardImgSrc" : "/assets/images/projects/uforia.jpg",
+    "order" : "1",
+    "position" : "3",
+    "appLink" : "",
+    "githubLink" : "",
+    "picture" : "",
+    "type" : "project"
+},
+{
+
+    "roles" : [
+        "Programmer",
+        "UX Designer",
+        "Wireframing"
+    ],
+    "tags" : [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Angular"
+    ],
+    "youtubeLink" : "",
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p>ScrollBinder is a character planner app for the popular table-top game, Dungeons and Dragons. Created as part of a mobile design course, we were given the task of creating a web app that also utilized web services. ScrollBinder uses Google's Realtime API to enable collaboration between players.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p>Initially, I had to decide which framwork to use. I settled upon Angular JS, and decided to make an app which followed Google's Material Design Specs. The first phase of development consisted of creating a working app that could track player stats and traits. The second phase included adding Google's Realtime API to allow groups of players to keep track of important adventure details.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p>ScrollBinder successfully reimagined the DnD experience by bringing. The responsive design allows it to work on any device, which greatly improves accessibility. I shared this app with my personal DnD group, and they continue to give me positive reviews and constructive feedback.</p>",
+    "cardImgSrc" : "/assets/images/projects/scrollbinder.jpg",
+    "position" : "1",
+    "date" : "Spring 2015",
+    "subtitle" : "DnD Character Planner",
+    "title" : "Scrollbinder",
+
+    "picture" : "/assets/images/projects/scrollbinder-main.jpg",
+    "appLink" : "http://dcdrawk.github.io/381a1/app/#/",
+    "githubLink" : "https://github.com/dcdrawk/381a1/",
+    "type" : "project"
+},
+{
+
+    "roles" : [
+        "Programmer",
+        "UX Designer",
+        "Developer"
+    ],
+    "tags" : [
+        "HTML",
+        "CSS",
+        "Angular",
+        "ThreeJS",
+        "PhysiJS"
+    ],
+    "youtubeLink" : "",
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p>DiceRoller was a small web app prototype I worked on for my mobile design class. The goal was to take an app idea and create something completely unique and experimental. I decided to create an app that allowed users to roll 3D dice using unique gestures and movements. It requires a mobile phone with multi-touch or an accelerometer to use.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p>We were given two weeks to reinvent an app with unique gestures. I decided to use threeJS and, physiJS libraries, which allowed me to create 3D objects complete with physics. My source of inspiration was the dice effect from the classic board game Trouble.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p>This assignment was a true test of my JavaScript skills. After two weeks I had a working prototype that was able to use two different kinds of dice (d4 and d6). The dice can be rolled via a pinch gesture, or by moving the device up and down.</p>",
+    "cardImgSrc" : "/assets/images/projects/diceroller.jpg",
+    "position" : "2",
+    "date" : "Spring 2015",
+    "subtitle" : "ThreeJS Web App",
+    "title" : "Diceroller",
+
+    "picture" : "/assets/images/projects/diceroller-screen.jpg",
+    "appLink" : "http://dcdrawk.github.io/381a2/#/",
+    "githubLink" : "https://github.com/dcdrawk/381a2/",
+    "type" : "project"
+},
+{
+
+    "roles" : [
+        "Storyboarder",
+        "Director",
+        "Editor"
+    ],
+    "tags" : [
+        "Adobe After Effects",
+        "Adobe Premier Pro",
+        "Photoshop"
+    ],
+    "youtubeLink" : "https://youtu.be/yQRFre6s7oc",
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">This individual assignment challenged my abilities as a media artist. Using the song Harvey the Wonder Hamster by Weird Al Yankovic as the base concept, I brainstormed, storyboarded, and edited until I was happy with the final outcome.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">This assignment began with brainstorming and storyboarding the rough concept. This concept was submitted for feedback, which I included in the final video. I had to book rooms, rent equiment/instruments, and edit the film. Once I had all my footage, I used Primiere Pro and Adobe After Effects to add a funky visualizer effect and key out the green screen.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">When it was finished, Harvey The Wonder Hamster was shown to the class and received a mark of 23/25.</p>",
+    "cardImgSrc" : "/assets/images/projects/harvey.jpg",
+    "position" : "4",
+    "date" : "Fall 2012",
+    "subtitle" : "Green Screen Video",
+    "title" : "Harvey The Hamster",
+    "appLink" : "",
+    "githubLink" : "",
+    "picture" : "",
+    "type" : "project"
+},
+{
+
+    "roles" : [
+        "Programmer",
+        "Interface Designer"
+    ],
+    "tags" : [
+        "Kinect Dev Kit",
+        "Processing 2.0",
+        "Adobe Premier Pro"
+    ],
+    "youtubeLink" : "https://www.youtube.com/watch?v=rB7E_XL_UZU",
+    "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">For this project, we were put into teams of two. Our goal was to take an existing electronic device and minimize it to the extreme. We chose a video remote, and we decided to replace the complex controller with simple hand gestures.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">We began by drawing out our ideas and then picking the ones we felt most confident with. We thought about using colour tracking, but we decided that the Kinect was the best way to achieve our desired functionality.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">The video remote was featured in a class showcase where students and faculty could try it themselves. Our project received an A grade.</p>",
+    "cardImgSrc" : "/assets/images/projects/kinect.jpg",
+    "position" : "5",
+    "date" : "Spring 2013",
+    "subtitle" : "Gesture Video Controls",
+    "title" : "Kinect Remote",
+
+    "appLink" : "",
+    "githubLink" : "",
+    "picture" : "",
+    "type" : "project"
+}]

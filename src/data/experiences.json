@@ -1,0 +1,48 @@
+{ 
+    "_id" : ObjectId("56e61f63d61f97bc099827c0"), 
+    "user" : ObjectId("56d3a4f3bffe9a441413302c"), 
+    "result" : "result", 
+    "role" : "Responsible for creating promotional web and print material for Health and Counselling Services. This included a campaign to promote a student health survey as well as updating the HCS website to use a new content management system. I also created 1-page information sheets, posters, and web banners.", 
+    "company" : "Simon Fraser University", 
+    "date" : "January - August 2012", 
+    "position" : "Marketing & Communications Assistant", 
+    "created" : ISODate("2016-03-14T02:18:11.134+0000"), 
+    "__v" : NumberInt(0), 
+    "order" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("56e61fc9d61f97bc099827c1"), 
+    "user" : ObjectId("56d3a4f3bffe9a441413302c"), 
+    "result" : "dasdsafa", 
+    "role" : "Developed and maintained websites for the BIA, including surreymarathon.com, surreycitycentre.ca, surreyfest.com, and downtownsurreybia.com. Designed graphics for web and print materials (such as newspaper ads, logos, banners, posters, newsletters, and flyers) to promote events and campaigns.", 
+    "company" : "Downtown Surrey Business Improvement Association", 
+    "date" : "Fall 2013", 
+    "position" : "Web & Graphic Design Intern", 
+    "created" : ISODate("2016-03-14T02:19:53.733+0000"), 
+    "__v" : NumberInt(0), 
+    "order" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("56e6373bd61f97bc099827c2"), 
+    "user" : ObjectId("56d3a4f3bffe9a441413302c"), 
+    "result" : "The redesign was a huge improvement in terms of user-experience and aesthetics. Search Engine Optimization improved our Google search rank, increasing traﬃc to the website. Website and image optimization decreased load times by 30%, enhancing user-retention.", 
+    "role" : "Responsible for the planning and development of the organization’s website, esebc.ca. Created sketches, prototypes, and wireframes to communicate my design vision. Developed a custom WordPress theme from scratch using PHP, HTML, CSS, and JavaScript.", 
+    "company" : "The Center for Epilepsy  and Seizure Education in BC", 
+    "date" : "May - August 2014", 
+    "position" : "Web Design and Marketing Coordinator", 
+    "created" : ISODate("2016-03-14T03:59:55.396+0000"), 
+    "__v" : NumberInt(0), 
+    "order" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5730209f5f5bdd2c101dc7a2"), 
+    "user" : ObjectId("56d3a4f3bffe9a441413302c"), 
+    "order" : NumberInt(0), 
+    "result" : "Responsible for implementing API routes to communicate with a database using PHP and YAML following an MVC design pattern. Designed views with HTML and SASS, while using AngularJS to retrieve data and add functionality.", 
+    "role" : "Brought in on a contract basis to assist with building a custom web software application to replace their existing system. Worked directly with the Software Architect to design and implement a wide variety of features. These included invoices, inventory management, time sheet entry, and other business features.", 
+    "company" : "Phoenix Restorations", 
+    "date" : "September 2015", 
+    "position" : "Jr. Front End Developer", 
+    "created" : ISODate("2016-05-09T05:31:11.805+0000"), 
+    "__v" : NumberInt(0)
+}

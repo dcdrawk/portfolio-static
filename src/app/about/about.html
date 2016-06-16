@@ -1,0 +1,37 @@
+
+<div ng-if="vm.intro">
+
+  <div class="heading animate-fade-in-up" animate-on-load ng-if="vm.showIntroHeading">
+    <h2 class="md-display-1 container">About</h2>
+  </div>
+  <section class="container margin-top animate-fade-in-up" animate-on-load ng-if="vm.showIntroText">
+    <md-card class="no-margin-h intro-text">
+      <md-card-content>
+        <p ng-bind-html="vm.intro"></p>
+      </md-card-content>
+    </md-card>
+  </section>
+
+  <div>
+    <div class="heading margin-t animate-move-up animate-fade-in" animate-on-load ng-if="vm.showSkillsHeading">
+      <h2 class="md-display-1 container">Skills</h2>
+    </div>
+    <section class="container skills-list animate-move-up animate-fade-in" animate-on-load ng-if="vm.showSkillsList">
+      <div layout="row">
+        <div flex="33" class="center-text">
+          <p class="md-title">Web</p>
+          <p ng-repeat="skill in vm.softwareSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+        </div>
+        <div flex="33" class="center-text">
+          <p class="md-title">Design</p>
+          <p ng-repeat="skill in vm.designSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+        </div>
+        <div flex="33" class="center-text">
+          <p class="md-title">Digital Media</p>
+          <p ng-repeat="skill in vm.digitalMediaSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</div>

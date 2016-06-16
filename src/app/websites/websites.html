@@ -1,0 +1,27 @@
+<div class="heading animate-fade-in animate-move-up" animate-on-load>
+  <h2 class="md-display-1 container">Websites</h2>
+</div>
+<section class="container" ng-if="vm.showWebsiteList && vm.websites">
+  <div layout="row" layout-fill layout-wrap class="clear-both">
+    <div class="animate-repeat animate-move-up animate-fade-in" flex="33" flex-xs="100" flex-sm="100"
+      ng-repeat="website in vm.websites | orderBy: 'position'" animate-on-load>
+      <!-- <md-card ui-sref="#" class="md-padding portfolio-card" layout="row" layout-align="start end"
+       layout-wrap style="background: url({{website.cardImgSrc}}); background-size: 100% 175%; background-position: center;" ng-if="website">
+        <div class="portfolio-card-text md-padding" flex="100">
+          <h4 class="md-title" ng-bind="website.title"></h4>
+          <h5 class="md-subhead" ng-bind="website.subtitle"></h5>
+        </div>
+      </md-card> -->
+      <md-card ui-sref="#" class="md-padding portfolio-card" layout="row" layout-align="start end"
+       layout-wrap ng-if="website">
+        <div class="portfolio-image">
+          <img ng-src="{{website.cardImgSrc}}"/>
+        </div>
+        <div class="portfolio-card-text md-padding" flex="100">
+          <h4 class="md-title" ng-bind="website.title"></h4>
+          <h5 class="md-subhead" ng-bind="website.subtitle"></h5>
+        </div>
+      </md-card>
+    </div>
+  </div>
+</section>

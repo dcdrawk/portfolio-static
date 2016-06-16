@@ -1,0 +1,17 @@
+<section class="portfolio-header container" layout="row">
+  <div class="devin-pic">
+    <img  alt="Devin Cook" src="assets/images/devin.jpg" />
+  </div>
+  <div class="header-text">
+    <h1 class="page-title md-display-1">Devin Cook</h1>
+    <span class="page-title md-subhead">Front-End Developer / Interaction Designer</span>
+  </div>
+</section>
+
+<section class="navigation-bar">
+  <div class="container">
+    <md-tabs md-stretch-tabs>
+      <md-tab ng-repeat="item in vm.menu" ui-sref="{{item.sref}}">{{item.title}}</md-tab>
+    </md-tabs>
+  </div>
+</section>

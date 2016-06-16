@@ -1,0 +1,13 @@
+{ 
+    "_id" : ObjectId("56e65a941fd377d80133392a"), 
+    "user" : ObjectId("56d3a4f3bffe9a441413302c"), 
+    "github" : "http://github.com/dcdrawk/", 
+    "googlePlus" : "http://thewebdev.ca/#", 
+    "linkedIn" : "https://ca.linkedin.com/in/thewebdev", 
+    "facebook" : "https://www.facebook.com/dev.cook.7", 
+    "address" : "Maple Ridge, British Columbia", 
+    "phone" : "778-235-7456", 
+    "email" : "devin@thewebdev.ca", 
+    "created" : ISODate("2016-03-14T06:30:44.322+0000"), 
+    "__v" : NumberInt(0)
+}
