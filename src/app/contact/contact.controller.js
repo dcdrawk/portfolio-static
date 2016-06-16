@@ -8,7 +8,7 @@
 //  ContactController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ContactController(dataService, $timeout){
+  function ContactController($rootScope, dataService, $timeout){
     var vm = this;
 
     activate();
@@ -16,6 +16,7 @@
     ////////////////
 
     function activate() {
+      $rootScope.activeTab = 'Contact';
       getContact();
       staggerPage();
     }

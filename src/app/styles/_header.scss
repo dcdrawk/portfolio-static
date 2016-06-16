@@ -3,7 +3,6 @@ header {
     background-color: $teal-500;
     color: $white;
     height: 176px;
-    margin-bottom: 3em;
     // margin-bottom: 24px;
 //    display: flex;
     .portfolio-header {
@@ -76,4 +75,7 @@ header {
 }
 .header-text {
   vertical-align: top;
+}
+md-icon.md-default-theme, md-icon {
+  color: rgba(255, 255, 255, 0.54);
 }

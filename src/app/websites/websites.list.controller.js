@@ -8,7 +8,7 @@
 //  WebsitesController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function WebsitesController(dataService, websiteService, $timeout){
+  function WebsitesController($rootScope, dataService, websiteService, $timeout){
     var vm = this;
 
     vm.getUrl = function(title) {
@@ -20,6 +20,7 @@
     ////////////////
 
     function activate() {
+      $rootScope.activeTab = 'Websites';
       staggerPage();
       if(websiteService.websites)
         vm.websites = websiteService.websites;

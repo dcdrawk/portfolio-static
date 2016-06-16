@@ -4,14 +4,17 @@
   </div>
   <div class="header-text">
     <h1 class="page-title md-display-1">Devin Cook</h1>
-    <span class="page-title md-subhead">Front-End Developer / Interaction Designer</span>
+    <span class="page-title md-subhead">
+      <span class="title-1">Front-End Developer / </span>
+      <span class="title-2">Interaction Designer
+    </span>
   </div>
 </section>
 
 <section class="navigation-bar">
   <div class="container">
     <md-tabs md-stretch-tabs>
-      <md-tab ng-repeat="item in vm.menu" ui-sref="{{item.sref}}">{{item.title}}</md-tab>
+      <md-tab md-active="item.title === $root.activeTab" ng-repeat="item in vm.menu" ng-click="vm.go(item.sref)">{{item.title}}</md-tab>
     </md-tabs>
   </div>
 </section>

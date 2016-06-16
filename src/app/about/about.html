@@ -1,6 +1,20 @@
+<div class="container animate-move-up" animate-on-load >
+  <h1 class="md-display-1 motto center-text">
+    <div class="motto-text faded-text">
+      <span class="animate-move-up" animate-on-load ng-if="vm.showDesign">
+        Design,
+      </span>
+      <span class="animate-fade-in" animate-on-load ng-if="vm.showCreate">
+        Create,
+      </span>
+      <span class="animate-fade-in" animate-on-load ng-if="vm.showInspire">
+        Inspire.
+      </span>
+    </div>
+</div>
+
 
 <div ng-if="vm.intro">
-
   <div class="heading animate-fade-in-up container" animate-on-load ng-if="vm.showIntroHeading">
     <h2 class="md-display-1">About</h2>
   </div>
@@ -12,26 +26,30 @@
     </md-card>
   </section>
 
-  <div>
-    <div class="heading margin-t animate-move-up animate-fade-in container" animate-on-load ng-if="vm.showSkillsHeading">
+  <div class="container">
+    <div class="heading margin-t animate-move-up animate-fade-in" animate-on-load ng-if="vm.showSkillsHeading">
       <h2 class="md-display-1">Skills</h2>
     </div>
-    <section class="container skills-list animate-move-up animate-fade-in" animate-on-load ng-if="vm.showSkillsList">
-      <div layout="row">
-        <div flex="33" class="center-text">
-          <p class="md-title"><strong>Web</strong></p>
-          <p ng-repeat="skill in vm.softwareSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
-        </div>
-        <div flex="33" class="center-text">
-          <p class="md-title">Design</p>
-          <p ng-repeat="skill in vm.designSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
-        </div>
-        <div flex="33" class="center-text">
-          <p class="md-title">Digital Media</p>
-          <p ng-repeat="skill in vm.digitalMediaSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
-        </div>
-      </div>
-    </section>
+    <md-card class="no-margin-h skills-list animate-move-up animate-fade-in" animate-on-load  ng-if="vm.showSkillsList">
+      <md-card-content>
+        <section class="skills-list">
+          <div layout="row">
+            <div flex="33" class="center-text">
+              <p class="md-title">Web</p>
+              <p ng-repeat="skill in vm.softwareSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+            </div>
+            <div flex="33" class="center-text">
+              <p class="md-title">Design</p>
+              <p ng-repeat="skill in vm.designSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+            </div>
+            <div flex="33" class="center-text">
+              <p class="md-title">Digital Media</p>
+              <p ng-repeat="skill in vm.digitalMediaSkills" class="animate-repeat animate-fade-in" animate-on-load>{{skill}}</p>
+            </div>
+          </div>
+        </section>
+      </md-card-content>
+    </md-card>
   </div>
 
 </div>

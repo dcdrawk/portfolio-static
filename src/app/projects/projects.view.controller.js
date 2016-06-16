@@ -8,13 +8,14 @@
 //  ProjectViewController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ProjectViewController(dataService, projectService, $timeout, $stateParams){
+  function ProjectViewController($rootScope, dataService, projectService, $timeout, $stateParams){
     var vm = this;
     activate();
 
     ////////////////
 
     function activate() {
+      $rootScope.activeTab = 'Projects';
       staggerPage();
       if(!projectService.projects);
         projectService.getProjects().then(function(projects){

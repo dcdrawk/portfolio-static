@@ -12,3 +12,36 @@
     margin: .5em;
   }
 }
+.motto {
+  margin: 2em 0;
+  .motto-text {
+    text-align: left;
+    display: inline-block;
+    width: 345px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-1 {
+    display: block;
+  }
+  header h1 {
+    margin-top: 24px!important;
+  }
+  .devin-pic img {
+    margin: 20px 6px 0 0!important;
+    width: 72px!important;
+  }
+  .motto {
+    margin: 1em 0!important;
+  }
+  .motto-text {
+        display: inline!important;
+    width: 100%;
+
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}

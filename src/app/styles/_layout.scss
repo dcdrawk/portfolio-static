@@ -5,6 +5,12 @@ body {
   overflow: visible;
 }
 
+[ui-view="container"] {
+  padding: 1em;
+}
+.portfolio-header {
+  padding: 0 1em;
+}
 md-content {
   overflow: hidden;
   background-color: #fafafa;

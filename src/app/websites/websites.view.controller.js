@@ -8,7 +8,7 @@
 //  WebsitesViewController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function WebsitesViewController(dataService, websiteService, $timeout, $stateParams){
+  function WebsitesViewController($rootScope, dataService, websiteService, $timeout, $stateParams){
     var vm = this;
     activate();
 
@@ -23,6 +23,7 @@
     }
 
     function staggerPage() {
+      $rootScope.activeTab = 'Websites';
       //Animate the intro text
       $timeout(function(){
         vm.showProjectList = true;

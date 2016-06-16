@@ -8,8 +8,15 @@
 //  HeaderController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function HeaderController(){
+  function HeaderController($state, $rootScope, $timeout){
     var vm = this;
+
+    $rootScope.$on('$stateChangeStart',  function(event, toState, toParams, fromState, fromParams, options){
+      console.log(fromParams);
+      if(!vm.loaded && fromParams.websiteName || !vm.loaded && fromParams.projectName)
+        event.preventDefault();
+    });
+
 //    vm.property = 'Controller';
     vm.menu = [
       {
@@ -30,11 +37,20 @@
       }
     ];
 
+    vm.go = function(sref) {
+       $state.go(sref);
+    };
+
     activate();
 
     ////////////////
 
     function activate() {
+      $timeout(function(){
+        vm.loaded = true;
+      }, 150)
     }
+
+
   }
 })();

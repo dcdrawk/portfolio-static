@@ -8,7 +8,7 @@
 //  ExperienceController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ExperienceController(dataService, $timeout){
+  function ExperienceController($rootScope, dataService, $timeout){
     var vm = this;
 
     activate();
@@ -16,6 +16,7 @@
     ////////////////
 
     function activate() {
+      $rootScope.activeTab = 'Experience';
       getExperience();
       staggerPage();
     }
