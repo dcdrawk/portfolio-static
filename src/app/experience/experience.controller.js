@@ -28,7 +28,7 @@
     }
 
     function getExperience() {
-      dataService.get('/data/experience.json').then(function(data){
+      dataService.get('data/experience.json').then(function(data){
         vm.experienceList = data;
       });
     }

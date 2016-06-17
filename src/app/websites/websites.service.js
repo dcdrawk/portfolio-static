@@ -26,7 +26,7 @@
       }
 
       function getWebsites() {
-        return dataService.get('/data/websites.json').then(function(data){
+        return dataService.get('data/websites.json').then(function(data){
           websites = data;
           return websites;
         });

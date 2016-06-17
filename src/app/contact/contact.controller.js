@@ -32,7 +32,7 @@
     }
 
     function getContact() {
-      dataService.get('/data/contact.json').then(function(data){
+      dataService.get('data/contact.json').then(function(data){
         vm.contact = data;
       });
     }

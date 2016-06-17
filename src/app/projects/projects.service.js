@@ -26,7 +26,7 @@
       }
 
       function getProjects() {
-        return dataService.get('/data/projects.json').then(function(data){
+        return dataService.get('data/projects.json').then(function(data){
           projects = data;
           return projects;
         });
