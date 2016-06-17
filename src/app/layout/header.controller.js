@@ -12,16 +12,14 @@
     var vm = this;
 
     $rootScope.$on('$stateChangeStart',  function(event, toState, toParams, fromState, fromParams, options){
-      console.log(fromParams);
       if(!vm.loaded && fromParams.websiteName || !vm.loaded && fromParams.projectName)
         event.preventDefault();
     });
 
-//    vm.property = 'Controller';
     vm.menu = [
       {
-        title: 'Home',
-        sref: 'root.home'
+        title: 'About',
+        sref: 'root.about'
       },{
         title: 'Projects',
         sref: 'root.projects'

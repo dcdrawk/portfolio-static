@@ -8,8 +8,14 @@
 //  ProjectViewController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ProjectViewController($rootScope, dataService, projectService, $timeout, $stateParams){
+  function ProjectViewController($scope, $rootScope, dataService, projectService, $timeout, $stateParams){
     var vm = this;
+    var doneStagger;
+
+    $scope.$on('$destroy', function (event){
+      $timeout.cancel(doneStagger);
+    });
+
     activate();
 
     ////////////////
@@ -25,8 +31,9 @@
 
     function staggerPage() {
       //Animate the intro text
-      $timeout(function(){
+      doneStagger = $timeout(function(){
         vm.showProject = true;
+        $rootScope.$broadcast('DONE_STAGGER');
       }, 250);
     }
 

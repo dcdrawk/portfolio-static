@@ -6,3 +6,7 @@
 //.delay-4s {
 //  transition-delay: 4s!important;
 //}
+.no-delay-leave.ng-leave {
+  transition-duration: 0s!important;
+  transition-delay: 0s!important;
+}

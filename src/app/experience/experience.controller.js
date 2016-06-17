@@ -8,8 +8,14 @@
 //  ExperienceController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ExperienceController($rootScope, dataService, $timeout){
+  function ExperienceController($scope, $rootScope, dataService, $timeout){
     var vm = this;
+    var doneStagger;
+
+    //Cancel the doneStagger timeout if the controller is destroyed
+    $scope.$on('$destroy', function (event){
+      $timeout.cancel(doneStagger);
+    });
 
     activate();
 
@@ -29,8 +35,9 @@
 
     function staggerPage() {
       //Animate the intro text
-      $timeout(function(){
+      doneStagger = $timeout(function(){
         vm.showExperience = true;
+        $rootScope.$broadcast('DONE_STAGGER');
       }, 250)
     }
   }

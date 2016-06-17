@@ -8,8 +8,13 @@
 //  WebsitesController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function WebsitesController($rootScope, dataService, websiteService, $timeout){
+  function WebsitesController($scope, $rootScope, dataService, websiteService, $timeout){
     var vm = this;
+    var doneStagger;
+
+    $scope.$on('$destroy', function (event){
+      $timeout.cancel(doneStagger);
+    });
 
     vm.getUrl = function(title) {
       return websiteService.getUrl(title);
@@ -32,8 +37,9 @@
 
     function staggerPage() {
       //Animate the intro text
-      $timeout(function(){
+      doneStagger = $timeout(function(){
         vm.showWebsiteList = true;
+        $rootScope.$broadcast('DONE_STAGGER');
       }, 250)
     }
   }

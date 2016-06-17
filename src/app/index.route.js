@@ -16,26 +16,24 @@
               templateUrl: 'app/layout/header.html',
               controller: 'HeaderController',
               controllerAs: 'vm'
-            }
-//            'footer':{
-//              templateUrl: 'footer.html',
-////              controller: 'FooterCtrl'
-//            }
+            },
+           'footer':{
+             templateUrl: 'app/layout/footer.html',
+             controller: 'FooterController',
+             controllerAs: 'vm'
+           }
           }
       })
-      .state('root.home', {
+      .state('root.about', {
         url: '/',
         views: {
           'container@': {
-//            templateUrl: 'app/main/main.html',
             templateUrl: 'app/about/about.html',
-
             controller: 'AboutController',
             controllerAs: 'vm'
           }
-        }      
+        }
       });
-
     $urlRouterProvider.otherwise('/');
   }
 

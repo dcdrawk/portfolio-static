@@ -8,12 +8,18 @@
 //  ContactController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ContactController($rootScope, dataService, contactService, $timeout){
+  function ContactController($scope, $rootScope, dataService, contactService, $timeout){
     var vm = this;
+    var doneStagger;
 
     vm.sendMessage = function() {
       contactService.sendMessage(vm.message);
     };
+
+    //Cancel the doneStagger timeout if the controller is destroyed
+    $scope.$on('$destroy', function (event){
+      $timeout.cancel(doneStagger);
+    });
 
     activate();
 
@@ -33,9 +39,10 @@
 
     function staggerPage() {
       //Animate the intro text
-      $timeout(function(){
+      doneStagger = $timeout(function(){
         vm.showContactInfo = true;
-      }, 250)
+        $rootScope.$broadcast('DONE_STAGGER');
+      }, 250);
     }
   }
 })();

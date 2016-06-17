@@ -8,10 +8,13 @@
 //  AboutController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function AboutController($rootScope, dataService, $timeout){
+  function AboutController($scope, $rootScope, dataService, $timeout){
     var vm = this;
-    vm.property = 'Controller';
-//    vm.intro = '<p>With a passion for all things web, I enjoy crafting clean and compelling user experiences. I enjoy turning design concepts into reality, as well as solving complex issues that arise along the way.</p>\n<p>With 2.5 years of Web Development experience, I currently work as a Front-End Developer in the Lower Mainland, creating powerful and robust Web Apps.</p>\n<p>After graduating with a BA from SFU\'s Interactive Arts and Technology (SIAT) program, I still have a thirst for knowledge and I am always keeping up with the latest in web technology.</p>'
+    var doneStagger;
+
+    $scope.$on('$destroy', function (event){
+      $timeout.cancel(doneStagger);
+    });
 
     activate();
 
@@ -64,8 +67,9 @@
       }, 1800)
 
       //Animate the skills list
-      $timeout(function(){
+      doneStagger = $timeout(function(){
         vm.showSkillsList = true;
+        $rootScope.$broadcast('DONE_STAGGER');
       }, 2000)
     }
   }
