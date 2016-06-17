@@ -96,7 +96,7 @@
     ],
     "youtubeLink" : "",
     "content" : "<h4 class=\"md-title\">Summary</h4>\n<p>DiceRoller was a small web app prototype I worked on for my mobile design class. The goal was to take an app idea and create something completely unique and experimental. I decided to create an app that allowed users to roll 3D dice using unique gestures and movements. It requires a mobile phone with multi-touch or an accelerometer to use.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p>We were given two weeks to reinvent an app with unique gestures. I decided to use threeJS and, physiJS libraries, which allowed me to create 3D objects complete with physics. My source of inspiration was the dice effect from the classic board game Trouble.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p>This assignment was a true test of my JavaScript skills. After two weeks I had a working prototype that was able to use two different kinds of dice (d4 and d6). The dice can be rolled via a pinch gesture, or by moving the device up and down.</p>",
-    "cardImgSrc" : "assets/images/projects/diceroller.jpg",
+    "cardImgSrc" : "assets/images/projects/dice-roller.jpg",
     "position" : "2",
     "date" : "Spring 2015",
     "subtitle" : "ThreeJS Web App",
