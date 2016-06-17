@@ -18,11 +18,8 @@
     <md-card class="md-padding no-margin-h portfolio-content" layout="row" layout-wrap layout-align="center start">
       <div layout="row" layout-wrap>
 
-        <div ng-if="vm.project.type == 'project' && vm.project.picture" flex="33" class="padding-r padding-b">
-          <img ng-cloak src="{{vm.project.picture}}"/>
-        </div>
-        <div ng-if="vm.project.type == 'website' && vm.project.picture" flex="50" class="padding-r padding-b">
-          <img ng-cloak src="{{vm.project.picture}}"/>
+        <div ng-if="vm.project.picture" flex="33" class="padding-r padding-b">
+          <img ng-cloak ng-src="{{vm.project.picture}}"/>
         </div>
         <div flex class="card-content">
           <div ng-bind-html="vm.project.content"></div>

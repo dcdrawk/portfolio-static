@@ -32,7 +32,7 @@
       $rootScope.activeTab = 'Websites';
       //Animate the intro text
       doneStagger = $timeout(function(){
-        vm.showProjectList = true;
+        vm.showWebsite = true;
         $rootScope.$broadcast('DONE_STAGGER');
       }, 250);
     }
