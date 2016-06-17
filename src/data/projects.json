@@ -26,7 +26,23 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [
+      "assets/images/projects/sandwich/thumb/benderGrab.jpg",
+      "assets/images/projects/sandwich/thumb/kitchenTable.jpg",
+      "assets/images/projects/sandwich/thumb/lightingSetup.jpg",
+      "assets/images/projects/sandwich/thumb/test-footage.jpg",
+      "assets/images/projects/sandwich/thumb/tomatoGrab.jpg",
+      "assets/images/projects/sandwich/thumb/tomatoSlice.jpg"
+    ],
+    "images" : [
+      "assets/images/projects/sandwich/benderGrab.jpg",
+      "assets/images/projects/sandwich/kitchenTable.jpg",
+      "assets/images/projects/sandwich/lightingSetup.jpg",
+      "assets/images/projects/sandwich/test-footage.jpg",
+      "assets/images/projects/sandwich/tomatoGrab.jpg",
+      "assets/images/projects/sandwich/tomatoSlice.jpg"
+    ]
 },
 {
 
@@ -52,7 +68,23 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [
+      "assets/images/projects/uforia/thumb/barn.jpg",
+      "assets/images/projects/uforia/thumb/screenshot1.jpg",
+      "assets/images/projects/uforia/thumb/screenshot2.jpg",
+      "assets/images/projects/uforia/thumb/screenshot3.jpg",
+      "assets/images/projects/uforia/thumb/screenshot4.jpg",
+      "assets/images/projects/uforia/thumb/screenshot5.jpg"
+    ],
+    "images" : [
+      "assets/images/projects/uforia/barn.jpg",
+      "assets/images/projects/uforia/screenshot1.jpg",
+      "assets/images/projects/uforia/screenshot2.jpg",
+      "assets/images/projects/uforia/screenshot3.jpg",
+      "assets/images/projects/uforia/screenshot4.jpg",
+      "assets/images/projects/uforia/screenshot5.jpg"
+    ]
 },
 {
 
@@ -129,7 +161,23 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [
+      "assets/images/projects/harvey/thumb/greenscreen1.jpg",
+      "assets/images/projects/harvey/thumb/greenscreen2.jpg",
+      "assets/images/projects/harvey/thumb/greenscreen3.jpg",
+      "assets/images/projects/harvey/thumb/greenscreen4.jpg",
+      "assets/images/projects/harvey/thumb/harvey3.jpg",
+      "assets/images/projects/harvey/thumb/harvey4.jpg"
+    ],
+    "images" : [
+      "assets/images/projects/harvey/greenscreen1.jpg",
+      "assets/images/projects/harvey/greenscreen2.jpg",
+      "assets/images/projects/harvey/greenscreen3.jpg",
+      "assets/images/projects/harvey/greenscreen4.jpg",
+      "assets/images/projects/harvey/harvey3.jpg",
+      "assets/images/projects/harvey/harvey4.jpg"
+    ]
 },
 {
 
@@ -153,5 +201,19 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [
+      "assets/images/projects/kinect/thumb/kinect-process1.jpg",
+      "assets/images/projects/kinect/thumb/kinect-process2.jpg",
+      "assets/images/projects/kinect/thumb/kinect-process3.jpg",
+      "assets/images/projects/kinect/thumb/kinect-process4.jpg",
+      "assets/images/projects/kinect/thumb/kinect-process5.jpg"
+    ],
+    "images" : [
+      "assets/images/projects/kinect/kinect-process1.jpg",
+      "assets/images/projects/kinect/kinect-process2.jpg",
+      "assets/images/projects/kinect/kinect-process3.jpg",
+      "assets/images/projects/kinect/kinect-process4.jpg",
+      "assets/images/projects/kinect/kinect-process5.jpg"
+    ]
 }]

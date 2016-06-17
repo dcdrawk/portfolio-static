@@ -8,7 +8,8 @@
       <md-card ui-sref="root.projects.view({projectName: vm.getUrl(project.title), project: project})" class="md-padding portfolio-card" layout="row" layout-align="start end"
        layout-wrap ng-if="project">
         <div class="portfolio-image">
-          <img ng-src="{{project.cardImgSrc}}"/>
+          <!-- <img ng-src="{{project.cardImgSrc}}"/> -->
+          <div afkl-lazy-image="{{project.cardImgSrc}}" class="afkl-lazy-wrapper afkl-img-ratio-1-1 full-width"></div>
         </div>
         <div class="portfolio-card-text md-padding" flex="100">
           <h4 class="md-title" ng-bind="project.title"></h4>

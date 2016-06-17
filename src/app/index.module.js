@@ -10,7 +10,8 @@
       'ui.router',
       'ngMaterial',
       'toastr',
-      'oblador.lazytube'
+      'oblador.lazytube',
+      'afkl.lazyImage'
      ]);
 
 })();
