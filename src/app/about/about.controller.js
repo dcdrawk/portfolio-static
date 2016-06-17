@@ -27,7 +27,7 @@
     }
 
     function getAboutInfo() {
-      dataService.get('/data/about.json').then(function(data){
+      dataService.get('data/about.json').then(function(data){
         vm.intro = data.intro;
         vm.designSkills = data.designSkills;
         vm.digitalMediaSkills = data.digitalMediaSkills;
