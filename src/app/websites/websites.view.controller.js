@@ -12,7 +12,7 @@
     var vm = this;
     var doneStagger;
 
-    $scope.$on('$destroy', function (event){
+    $scope.$on('$destroy', function (){
       $timeout.cancel(doneStagger);
     });
 
@@ -22,7 +22,7 @@
 
     function activate() {
       staggerPage();
-      if(!websiteService.websites);
+      if(!websiteService.websites)
         websiteService.getWebsites().then(function(websites){
           vm.website = getWebsite($stateParams.websiteName, websites);
         });

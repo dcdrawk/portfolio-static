@@ -4,7 +4,6 @@
   angular
     .module('app', [
       'ngAnimate',
-      'ngTouch',
       'ngSanitize',
       'ngMessages',
       'ngAria',

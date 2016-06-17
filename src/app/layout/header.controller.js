@@ -11,7 +11,7 @@
   function HeaderController($state, $rootScope, $timeout){
     var vm = this;
 
-    $rootScope.$on('$stateChangeStart',  function(event, toState, toParams, fromState, fromParams, options){
+    var stateChangeStart = $rootScope.$on('$stateChangeStart',  function(event, toState, toParams, fromState, fromParams, options){
       if(!vm.loaded && fromParams.websiteName || !vm.loaded && fromParams.projectName)
         event.preventDefault();
     });

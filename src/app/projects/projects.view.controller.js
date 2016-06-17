@@ -12,7 +12,7 @@
     var vm = this;
     var doneStagger;
 
-    $scope.$on('$destroy', function (event){
+    $scope.$on('$destroy', function (){
       $timeout.cancel(doneStagger);
     });
 
@@ -23,7 +23,7 @@
     function activate() {
       $rootScope.activeTab = 'Projects';
       staggerPage();
-      if(!projectService.projects);
+      if(!projectService.projects)
         projectService.getProjects().then(function(projects){
           vm.project = getProject($stateParams.projectName, projects);
         });

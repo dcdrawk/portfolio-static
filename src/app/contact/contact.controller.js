@@ -17,7 +17,7 @@
     };
 
     //Cancel the doneStagger timeout if the controller is destroyed
-    $scope.$on('$destroy', function (event){
+    $scope.$on('$destroy', function (){
       $timeout.cancel(doneStagger);
     });
 

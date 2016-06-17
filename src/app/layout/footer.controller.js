@@ -13,13 +13,13 @@
     var footerTimer;
 
     //When the state changes, hide the footer
-    $rootScope.$on('$stateChangeStart',  function(event, toState, toParams, fromState, fromParams, options){
+    var stateChangeStart = $rootScope.$on('$stateChangeStart',  function(){
       $timeout.cancel(footerTimer);
       vm.showFooter = false;
     });
 
     //When we are done staggering, show the footer
-    $rootScope.$on('DONE_STAGGER',  function(){
+    var doneStagger = $rootScope.$on('DONE_STAGGER',  function(){
       showFooter();
     });
 

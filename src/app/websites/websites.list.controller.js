@@ -12,7 +12,7 @@
     var vm = this;
     var doneStagger;
 
-    $scope.$on('$destroy', function (event){
+    $scope.$on('$destroy', function (){
       $timeout.cancel(doneStagger);
     });
 
