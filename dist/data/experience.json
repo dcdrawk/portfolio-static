@@ -1,0 +1,42 @@
+[
+  {
+    "order" : "0",
+    "position" : "Jr. Front End Developer",
+    "company" : "Phoenix Restorations",
+    "date" : "September 2015 - Present",
+    "role" : "Assisted with building an enterprise-level single-page application. Worked directly with the Team Lead / Software Architect to design and implement a wide variety of features. These features included multi-language support, invoices, inventory management, and other business-related features.",
+    "result" : "Responsible for implementing API routes to communicate with a database using Symfony, a PHP framework. Designed views and web components with HTML, PHP, and SASS. Used AngularJS to create controllers, services, factories, and custom directives to implement frontend functionality."
+  },
+  {
+    "order" : "1",
+    "position" : "Jr. Web Developer",
+    "company" : "Website-On-Demand",
+    "date" : "October 2014 - September 2015",
+    "role" : "Responsible for developing and building websites with a wide variety of clients, including the Canadian Lymphedema Framework, Public Interest (Toronto), and many others. Tasks ranged from complete site builds, to small updates and style tweaks. Primarily used HTML, CSS, JavaScript, PHP, and WordPress.",
+    "result" : "Consulted with clients to communicate website updates and specifications. Followed a tight schedule to ensure updates are delivered on time and clients were happy with our work. Clients often commented on our attention to detail and quick response times."
+  },
+  {
+    "order" : "2",
+    "position" : "Web Design and Marketing Coordinator",
+    "company" : "The Center for Epilepsy  and Seizure Education in BC",
+    "date" : "May - August 2014",
+    "role" : "Responsible for the planning and development of the organization’s website, esebc.ca. Created sketches, prototypes, and wireframes to communicate my design vision. Developed a custom WordPress theme from scratch using PHP, HTML, CSS, and JavaScript.",
+    "result" : "The redesign was a huge improvement in terms of user-experience and aesthetics. Search Engine Optimization improved our Google search rank, increasing traﬃc to the website. Website and image optimization decreased load times by 30%, enhancing user-retention."
+  },
+  {
+    "order" : "3",
+    "position" : "Web & Graphic Design Intern",
+    "company" : "Downtown Surrey Business Improvement Association",
+    "date" : "Fall 2013",
+    "role" : "Developed and maintained several websites using HTML, PHP, CSS, and WordPress. Designed graphics for web and print materials to promote local events and campaigns using Adobe PhotoShop, Illustrator, and InDesign. These included newspaper ads, logos, banners, posters, newsletters, and flyers.",
+    "result" : "Successfully revamped several BIA websites using the WordPress platform. In some cases, website layout and design were completely overhauled. This resulted in a drastically improved user experience and ease of access."
+  },
+  {
+    "order" : "4",
+    "position" : "Marketing & Communications Assistant",
+    "company" : "Simon Fraser University",
+    "date" : "January - August 2012",
+    "role" : "Responsible for creating promotional web and print material for SFU’s Health and Counselling Services (HCS). This included redesigning the HCS website from satic HTML and CSS, to using the Adobe CQ5 content management system. Worked on awareness campaigns to help promote healthy student lifestyles by designing contests, flyers, brochures, posters, and web banners.",
+    "result" : "The new website improved usability for both users and web administrators, and received positive reviews from both staff and students. Conducted a survey for an awareness campaign, which received more than eight-hundred responses; over 25% higher than the previous year."
+  }
+]

@@ -1,0 +1,35 @@
+{
+    "intro" : "<p>I'm an avid web developer with a background in front end development, user experience, and design. I have a thirst for knowledge, a keen attention to detail, and I take pride in writing clean, maintainable, and reusable code. I enjoy being a part of teams both large and small to deliver feature-rich web apps and websites from conception to completion. Whether I’m creating a prototype from scratch or building large-scale web apps, I love what I do and I reflect that in my work.</p><p>During my academic and professional experience, I’ve honed my creativity and teamwork skills. I’m flexible, easy going, and I can easily adapt to new work environments. I like learning new techniques about the latest web technology, as well as sharing tips and tricks with colleagues and coworkers.</p>",
+    "webSkills" : [
+        "HTML5 / CSS3",
+        "SASS / LESS",
+        "JavaScript",
+        "AngularJS",
+        "PHP / MySQL",
+        "NodeJS / MongoDB"
+    ],
+    "developmentSkills" : [
+        "Grunt / Gulp",
+        "Linux / Bash",
+        "Github / Bitbucket",
+        "Unit Testing / Karma",
+        "Agile Development",
+        "Code Reviews"
+    ],
+    "designSkills" : [
+        "Interface Design",
+        "Visual Analytics",
+        "Wireframing",
+        "User Testing",
+        "UX Design Evaluation",
+        "Rapid Prototyping"
+    ],
+    "digitalMediaSkills" : [
+        "Adobe Suite",
+        "Video Editing",
+        "Game Design",
+        "Sound Design",
+        "Arduino",
+        "Wearables"
+    ]
+}
