@@ -16,7 +16,7 @@
         return service;
 
         function sendMessage(params) {
-          var url = '/assets/email.php';
+          var url = 'assets/email.php';
           dataService.post(url, params);
         }
     }
