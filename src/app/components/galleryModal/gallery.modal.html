@@ -11,7 +11,15 @@
     </md-toolbar>
     <md-dialog-content>
       <div class="md-dialog-content">
-        <div afkl-lazy-image="{{vm.images[vm.index]}}" class="afkl-lazy-wrapper full-width"></div>
+        <div afkl-lazy-image="{{vm.images[vm.index].imgSrc}}" class="afkl-lazy-wrapper full-width"></div>
+        <div class="image-description">
+          <p class="md-title">
+            {{vm.images[vm.index].title}}
+          </p>
+          <p class="md-body-1">
+             {{vm.images[vm.index].caption}}
+          </p>
+        </div>
       </div>
     </md-dialog-content>
     <md-dialog-actions layout="row">

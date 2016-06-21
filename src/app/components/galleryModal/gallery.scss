@@ -3,3 +3,15 @@
     padding: 0px;
   }
 }
+.image-description {
+  bottom: 56px;
+  position: fixed;
+  width: calc(100% - 2em);
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+  p {
+    margin: 0;
+  }
+}

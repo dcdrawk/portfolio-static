@@ -20,7 +20,7 @@
         <div layout="row" layout-wrap class="image-gallery">
           <div flex="50" class="md-padding portfolio-gallery-image animate-repeat animate-fade-in animate-move-up"
            ng-repeat="image in vm.project.thumbs" animate-on-load>
-            <div afkl-lazy-image="{{image}}" class="afkl-lazy-wrapper full-width" ng-click="vm.openGallery($event, $index);"></div>
+            <div afkl-lazy-image="{{image.imgSrc}}" class="afkl-lazy-wrapper full-width" ng-click="vm.openGallery($event, $index);"></div>
           </div>
         </div>
       </div>
