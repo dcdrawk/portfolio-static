@@ -26,7 +26,45 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/bender-grab.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/kitchen-table.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/lighting-setup.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/test-footage.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/tomato-grab.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/thumb/tomato-slice.jpg"
+    }],
+    "images" : [{
+      "imgSrc" : "assets/images/projects/sandwich/bender-grab.jpg",
+      "title" : "A hand appears!",
+      "caption" : "A mysterious metal hand grabs the lettuce! The tomato and bologni seem amused, oblivious to their impending fate..."
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/kitchen-table.jpg",
+      "title" : "Kitchen Table",
+      "caption" : "For one of the earlier assignments, we had to model, texture, and light a small scene. I chose to create a kitchen counter, with a blender, toaster, knife, cutting board, and an orange to top it off."
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/lighting-setup.jpg",
+      "title" : "Lighting Setup",
+      "caption" : "This screenshot was taken from Autodesk Maya, the 3D modeling and animation software we used to create this short. Here, we can see the lighting setup, including the spot light, ambient light, and point light."
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/test-footage.jpg",
+      "title" : "Test Footage",
+      "caption" : "Early test footage allowed us to spot any potential issues and adjust the lighting without having to render the whole scene."
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/tomato-grab.jpg",
+      "title" : "The Tomato is in Trouble!",
+      "caption" : "A mysterious metal hand grabs the lettuce! The tomato and bologni seem amused, oblivious to their impending fate..."
+    },{
+      "imgSrc" : "assets/images/projects/sandwich/tomato-slice.jpg",
+      "title" : "Tomato Gets Sliced!",
+      "caption" : "Oh no, look out Tomato!"
+    }]
 },
 {
 
@@ -52,7 +90,41 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [{
+      "imgSrc" : "assets/images/projects/uforia/thumb/barn.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/thumb/screenshot1.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/thumb/screenshot2.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/thumb/screenshot3.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/thumb/screenshot4.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/thumb/screenshot5.jpg"
+    }],
+    "images" : [{
+      "imgSrc" : "assets/images/projects/uforia/barn.jpg",
+      "title" : "Barn Model",
+      "caption" : "A model of a barn used as an in-game asset. Modeled and textures by myself."
+    },{
+      "imgSrc" : "assets/images/projects/uforia/screenshot1.jpg",
+      "title" : "Starting Area",
+      "caption" : "At the start of the game, you are in a house, but you notice some strange noises outside, your objective is to grab a flashlight and investigate."
+    },{
+      "imgSrc" : "assets/images/projects/uforia/screenshot2.jpg",
+      "title" : "UFO Outside",
+      "caption" : "You venture outside, but shortly after setting foot on your farmland, you see a UFO fly overhead!"
+    },{
+      "imgSrc" : "assets/images/projects/uforia/screenshot5.jpg",
+      "title" : "Inside the UFO",
+      "caption" : "After you a brought inside the UFO, you come across a secret chamber used for alien experiments."
+    },{
+      "imgSrc" : "assets/images/projects/uforia/screenshot6.jpg",
+      "title" : "UFO Exploding",
+      "caption" : "After activating the self-destruct button, you pilot a small ship in order to escape the exploding UFO."
+    }]
 },
 {
 
@@ -129,7 +201,45 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [{
+      "imgSrc" : "assets/images/projects/harvey/thumb/greenscreen1.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/thumb/greenscreen2.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/thumb/greenscreen3.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/thumb/greenscreen4.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/thumb/harvey3.jpg"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/thumb/harvey4.jpg"
+    }],
+    "images" : [{
+      "imgSrc" : "assets/images/projects/harvey/greenscreen1.jpg",
+      "title" : "Marching",
+      "caption" : "A shot of myself marching to the beat."
+    },{
+      "imgSrc" : "assets/images/projects/harvey/greenscreen2.jpg",
+      "title" : "Drumming",
+      "caption" : "Playing the drum to the beat of 'Harvey.'"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/greenscreen3.jpg",
+      "title" : "Trumpeting",
+      "caption" : "Check out my trumpet skills! Just kidding, I know nothing about actually playing the trumpet, but it looks cool!"
+    },{
+      "imgSrc" : "assets/images/projects/harvey/greenscreen4.jpg",
+      "title" : "Harvey on the greenscreen",
+      "caption" : "Still from the intro scene, where I move harvey in front of a green screen."
+    },{
+      "imgSrc" : "assets/images/projects/harvey/harvey3.jpg",
+      "title" : "Harvey in his natural habitat",
+      "caption" : "A test shot I have of Harvey running on his hamster wheel."
+    },{
+      "imgSrc" : "assets/images/projects/harvey/harvey4.jpg",
+      "title" : "Harvey lookin' his best",
+      "caption" : "A still shot of Harvey I used in my demo video."
+    }]
 },
 {
 
@@ -153,5 +263,38 @@
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
-    "type" : "project"
+    "type" : "project",
+    "thumbs" : [{
+      "imgSrc" :"assets/images/projects/kinect/thumb/kinect-process1.jpg"
+    },{
+      "imgSrc" :"assets/images/projects/kinect/thumb/kinect-process2.jpg"
+    },{
+      "imgSrc" :"assets/images/projects/kinect/thumb/kinect-process3.jpg"
+    },{
+      "imgSrc" :"assets/images/projects/kinect/thumb/kinect-process4.jpg"
+    },{
+      "imgSrc" :"assets/images/projects/kinect/thumb/kinect-process5.jpg"
+    }],
+    "images" : [{
+      "imgSrc" : "assets/images/projects/kinect/kinect-process1.jpg",
+      "title" : "Hand Tracking 1",
+      "caption" : "Test footage shows us using Processing and the Kintect SDK to do hand tracking. The user controls the volume by gesturing up or down."
+    },{
+      "imgSrc" : "assets/images/projects/kinect/kinect-process2.jpg",
+      "title" : "Hand Tracking 2",
+      "caption" : "Test footage shows us using Processing and the Kintect SDK to do hand tracking. The user controls the volume by gesturing up or down."
+    },{
+      "imgSrc" : "assets/images/projects/kinect/kinect-process3.jpg",
+      "title" : "Hand Tracking 3",
+      "caption" : "Here's how the previous images looked from a different perspective. The Kintect is next to the laptop so we can quickly test our setup."
+    },{
+      "imgSrc" : "assets/images/projects/kinect/kinect-process4.jpg",
+      "title" : "Two hands at once",
+      "caption" : "More test footage, this time we were able to track both left and right hands seperately."
+    },{
+      "imgSrc" : "assets/images/projects/kinect/kinect-process5.jpg",
+      "title" : "Working demo",
+      "caption" : "For our working demo, we use a short scene from the movie 'Hot Fuzz'. The user can play or pause the movie by gesturing left or right, and control the volume with up or down."
+    }]
+
 }]

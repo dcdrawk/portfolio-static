@@ -8,33 +8,31 @@
 //  ProjectViewController.$inject = ['dependencies'];
 
   /* @ngInject */
-  function ProjectViewController($scope, $rootScope, dataService, projectService, $mdDialog, $mdMedia, $timeout, $stateParams){
+  function ProjectViewController($scope, $rootScope, $document, dataService, projectService, $mdDialog, $mdMedia, $timeout, $stateParams){
     var vm = this;
     var doneStagger;
 
     vm.openGallery = function(ev, index) {
-      console.log('dwdaopwkd');
-      var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
       $mdDialog.show({
         controller: GalleryModalController,
         controllerAs: 'vm',
         templateUrl: 'app/components/galleryModal/gallery.modal.html',
-        parent: angular.element(document.body),
+        parent: angular.element($document.body),
         targetEvent: ev,
         clickOutsideToClose: true,
         locals: {
            images: vm.project.images,
            index: index,
            title: vm.project.title
-         },
+         }
       // })
       // .then(function() {
       });
-      $scope.$watch(function() {
-        return $mdMedia('xs') || $mdMedia('sm');
-      }, function(wantsFullScreen) {
-        $scope.customFullscreen = (wantsFullScreen === true);
-      });
+      // $scope.$watch(function() {
+      //   return $mdMedia('xs') || $mdMedia('sm');
+      // }, function() {
+      //   // $scope.customFullscreen = (wantsFullScreen === true);
+      // });
     }
 
     $scope.$on('$destroy', function (){
