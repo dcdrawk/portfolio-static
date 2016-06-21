@@ -21,8 +21,11 @@
           <img ng-cloak ng-src="{{vm.website.picture}}"/>
         </div>
         <div flex class="card-content">
+          <md-button ng-if="vm.website.appLink" href="{{vm.website.appLink}}" target="_blank"  class="md-primary md-raised no-margin-l no-margin-t">
+            Visit Website
+            <md-icon class="material-icons">launch</md-icon>
+          </md-button>
           <div ng-bind-html="vm.website.content"></div>
-          <md-button ng-if="vm.website.appLink" href="{{vm.website.appLink}}" target="_blank"  class="md-primary md-raised no-margin-l">Visit Website</md-button>
         </div>
       </div>
       <div flex="100">

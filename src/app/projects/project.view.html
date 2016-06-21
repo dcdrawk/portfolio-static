@@ -33,9 +33,15 @@
           <div afkl-lazy-image="{{vm.project.picture}}" class="afkl-lazy-wrapper"></div>
         </div>
         <div flex flex-xs="100" class="card-content">
+          <md-button ng-if="vm.project.appLink" ng-href="{{vm.project.appLink}}" target="_blank"  class="md-primary md-raised no-margin-l no-margin-t">
+            Launch App
+            <md-icon class="material-icons">launch</md-icon>
+          </md-button>
+          <md-button ng-if="vm.project.githubLink" href="{{vm.project.githubLink}}" target="_blank" class="md-raised  no-margin-l no-margin-t">
+            View on Github
+            <md-icon md-svg-icon="assets/images/icons/github-box.svg"></md-icon>
+          </md-button>
           <div ng-bind-html="vm.project.content"></div>
-          <md-button ng-if="vm.project.githubLink" href="{{vm.project.githubLink}}" target="_blank" class="md-raised no-margin-l">View on Github</md-button>
-          <md-button ng-if="vm.project.appLink" href="{{vm.project.appLink}}" target="_blank"  class="md-primary md-raised">Launch App</md-button>
         </div>
       </div>
       <div flex="100">

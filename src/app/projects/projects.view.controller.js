@@ -25,14 +25,7 @@
            index: index,
            title: vm.project.title
          }
-      // })
-      // .then(function() {
       });
-      // $scope.$watch(function() {
-      //   return $mdMedia('xs') || $mdMedia('sm');
-      // }, function() {
-      //   // $scope.customFullscreen = (wantsFullScreen === true);
-      // });
     }
 
     $scope.$on('$destroy', function (){
