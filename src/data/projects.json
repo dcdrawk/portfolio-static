@@ -2,7 +2,7 @@
 
     "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">With a small group, I assisted with the production of a 3D animated short film. Working with Autodesk Maya, we crafted everything from scratch to make a comical and memorable animation.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">Our animated short began with a series of simple sketches as we finalized our narrative. After, we collaborated together to model, texture, light, and animate our scene. After rendering each frame, we put on the final touches before presenting it to the class. Every model had to me made from scratch, and we put our knowledge of modeling and rigging to the test.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">The Sandwich was screened in front of the class and received an A. It was applauded for it's use of lighting, animation, and character rigging.</p>",
     "title" : "The Sandwich",
-
+    "subtitle" : "3D Animated Short",
     "software" : [
 
     ],
@@ -11,7 +11,7 @@
         "3D Animation",
         "Autodesk Maya"
     ],
-    "subtitle" : "3D Animated Short",
+
     "date" : "Fall 2012",
     "youtubeLink" : "https://www.youtube.com/watch?v=MLEdSgTkL8Y",
     "roles" : [
@@ -67,7 +67,8 @@
     }]
 },
 {
-
+    "title" : "UFOria",
+    "subtitle" : "Immersive 3D Game World",
     "roles" : [
         "Level Designer",
         "Programmer",
@@ -81,9 +82,6 @@
     "youtubeLink" : "https://youtu.be/iZy9xFdDFSE?list=PLdl_zQizF3AQl3KToNLRlOMif2pBIgvhR",
     "content" : "<h4 class=\"md-title\">Summary</h4>\n<p class=\"md-body-1\">Using the 3D development platform Unity, my group set out to create an interactive immersive experience. Our unique world let players explore a UFO abduction using Wii motion controls.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">After brainstorming our idea, we began by sketching out our framework. Once we were satisfied, we began modelling and gathering assets for our project. As we were constructing our game world, we did multiple user tests to make sure the experience was fun and bug-free.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Result</h4>\n<p class=\"md-body-1\">Our project was featured in a class showcase at SFU's Surrey Campus and received a mark of 24/25.!!!</p>",
     "date" : "Spring 2013",
-    "subtitle" : "Motion Controlled 3D World",
-    "title" : "UFOria",
-
     "cardImgSrc" : "assets/images/projects/uforia.jpg",
     "order" : "1",
     "position" : "3",
@@ -127,7 +125,8 @@
     }]
 },
 {
-
+    "title" : "Scrollbinder",
+    "subtitle" : "AngularJS Project",
     "roles" : [
         "Programmer",
         "UX Designer",
@@ -144,8 +143,7 @@
     "cardImgSrc" : "assets/images/projects/scrollbinder.jpg",
     "position" : "1",
     "date" : "Spring 2015",
-    "subtitle" : "DnD Character Planner",
-    "title" : "Scrollbinder",
+
 
     "picture" : "assets/images/projects/scrollbinder-main.jpg",
     "appLink" : "http://dcdrawk.github.io/381a1/app/#/",
@@ -180,7 +178,8 @@
     "type" : "project"
 },
 {
-
+    "title" : "Harvey The Hamster",
+    "subtitle" : "Video Project",
     "roles" : [
         "Storyboarder",
         "Director",
@@ -196,8 +195,7 @@
     "cardImgSrc" : "assets/images/projects/harvey.jpg",
     "position" : "4",
     "date" : "Fall 2012",
-    "subtitle" : "Green Screen Video",
-    "title" : "Harvey The Hamster",
+
     "appLink" : "",
     "githubLink" : "",
     "picture" : "",
@@ -242,7 +240,8 @@
     }]
 },
 {
-
+    "title" : "Kinect Remote",
+    "subtitle" : "Gesture Control App",
     "roles" : [
         "Programmer",
         "Interface Designer"
@@ -257,8 +256,7 @@
     "cardImgSrc" : "assets/images/projects/kinect.jpg",
     "position" : "5",
     "date" : "Spring 2013",
-    "subtitle" : "Gesture Video Controls",
-    "title" : "Kinect Remote",
+
 
     "appLink" : "",
     "githubLink" : "",

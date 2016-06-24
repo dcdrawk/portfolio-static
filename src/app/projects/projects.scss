@@ -5,7 +5,7 @@
 }
 
 .portfolio-card {
-  height:200px;
+  height: 200px;
   padding: 0;
   cursor: pointer;
   transition: all .5s cubic-bezier(0.215,.61,.355,1);
@@ -21,11 +21,12 @@
 
 .portfolio-card-text {
   color: #fff;
-  background-color: rgba(0,0,0,.24);
+  background-color: rgba(0,0,0,.54);
   z-index: 1;
+  padding: 0 1em;
   .md-title, .md-subhead {
     margin: .5em 0;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
   }
 }
 
@@ -44,7 +45,7 @@
   top: 8px;
   img {
     width: 100%;
-    top: -75px;
+    top: -115px;
     position: relative;
     transform: scale(1);
     transition: all .5s cubic-bezier(0.215,.61,.355,1);

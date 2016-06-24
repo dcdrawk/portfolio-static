@@ -3,14 +3,14 @@
 </div>
 <section class="container" ng-if="vm.showWebsiteList && vm.websites">
   <div layout="row" layout-fill layout-wrap class="clear-both">
-    <div class="animate-repeat animate-move-up animate-fade-in" flex="33" flex-xs="100" flex-sm="100"
+    <div class="animate-repeat animate-move-up animate-fade-in" flex="33" flex-xs="100" flex-sm="50"
       ng-repeat="website in vm.websites | orderBy: 'position'" animate-on-load>
       <md-card ui-sref="root.websites.view({websiteName: vm.getUrl(website.title), website: website})" class="md-padding portfolio-card" layout="row" layout-align="start end"
        layout-wrap ng-if="website">
         <div class="portfolio-image">
           <img ng-src="{{website.cardImgSrc}}"/>
         </div>
-        <div class="portfolio-card-text md-padding" flex="100">
+        <div class="portfolio-card-text" flex="100">
           <h4 class="md-title" ng-bind="website.title"></h4>
           <h5 class="md-subhead" ng-bind="website.subtitle"></h5>
         </div>

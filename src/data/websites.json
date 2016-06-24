@@ -13,12 +13,10 @@
         "WordPress"
     ],
     "appLink" : "http://www.esebc.ca",
-    "githubLink" : "",
-    "youtubeLink" : "",
     "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\">In the summer of 2014, I was hired by The Center for Epilepsy and Seizure Education BC to help revamp and revitalize their existing website. The content was outdated, and the layout was unintuitive. Starting from scratch, I built this website using my knowledge of PHP, HTML, CSS, and Javascript.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">Early in the design process, I started with a number of hand-drawn sketches to help communicate my overall design vision to my team of co-workers. Then, I moved onto a wireframe prototype using Axure, which helped me understand the overall structure and visual layout of the design I had envisioned.</p>\n<p class=\"md-body-1\">After a few iterations, I was ready to translate my design into code. Using WordPress and Html5 Blank as my starting point, I was able to use feedback and my prototypes to guide the way.</p>",
     "picture" : "assets/images/websites/esebc/esebc-screen.jpg",
     "cardImgSrc" : "assets/images/websites/esebc/esebc.jpg",
-    "position" : "1",
+    "position" : "4",
     "date" : "Summer 2014",
     "type" : "website",
     "subtitle" : "ESEBC, Abbotsford",
@@ -36,8 +34,6 @@
         "Drupal"
     ],
     "appLink" : "http://www.bcbuildingtrades.org/",
-    "githubLink" : "",
-    "youtubeLink" : "",
     "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\">The BC Building Trades Union is one of my current clients. I provide routine updates and maintinence for their web content, which includes posting articles, updating event calendars, and more.</p>\n<p class=\"md-body-1\">The BCBT website informs visitors of the latest trade news in BC, as well as access to the latest articles from around the province. The site also includes an archive of Trade Talk magazine.</p>",
     "picture" : "assets/images/websites/bcbt/bcbt-screen.jpg",
     "cardImgSrc" : "assets/images/websites/bcbt/bcbt.jpg",
@@ -50,8 +46,8 @@
 {
 
     "roles" : [
-        "Web Designer",
-        "Web Developer",
+        "Designer",
+        "Developer",
         "Content Editor"
     ],
     "tags" : [
@@ -62,8 +58,6 @@
         "WordPress"
     ],
     "appLink" : "http://surreycitycentre.ca/",
-    "githubLink" : "",
-    "youtubeLink" : "",
     "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\">In the summer of 2014, I was hired by The Center for Epilepsy and Seizure Education BC to help revamp and revitalize their existing website. The content was outdated, and the layout was unintuitive. Starting from scratch, I built this website using my knowledge of PHP, HTML, CSS, and Javascript.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">Early in the design process, I started with a number of hand-drawn sketches to help communicate my overall design vision to my team of co-workers. Then, I moved onto a wireframe prototype using Axure, which helped me understand the overall structure and visual layout of the design I had envisioned.</p>\n<p class=\"md-body-1\">We began by looking at how the original website was organized, and made a copy of all the content before creating a basic WordPress install. Then we used a the Kallyas theme as our starting template. After that it was a matter of setting up and styling the pages and navigation. This gave the website a more modern look and feel and 100% responsive.</p>",
     "picture" : "assets/images/websites/scc/scc-screen.jpg",
     "cardImgSrc" : "assets/images/websites/scc/scc.jpg",
@@ -76,8 +70,8 @@
 {
 
     "roles" : [
-        "Web Designer",
-        "Web Developer"
+        "Designer",
+        "Developer"
     ],
     "tags" : [
         "HTML",
@@ -96,5 +90,188 @@
     "type" : "website",
     "subtitle" : "Hemp Products",
     "title" : "East West Science"
-
+},
+{
+    "title" : "Aviva Allen",
+    "subtitle" : "Childrens' Nutritionist",
+    "date" : "November 2014",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\">A website build for Website On Demand. I was given Photoshop mockups and a base template to work from. This website was built using Joomla as the content management system, which I helped set up and install.</p>\n<md-divider class=\"margin-v\"></md-divider>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\">To match the mockups, I used Photoshop to extract the images and CSS to customize the theme. Set up the page layout, navigation, and plugins using Joomla.</p>",
+    "picture" : "assets/images/websites/aviva-allen/aviva-allen-screenshot.jpg",
+    "cardImgSrc" : "assets/images/websites/aviva-allen/aviva-allen.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "Joomla",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://www.avivaallen.com/",
+    "position" : "6"
+},
+{
+    "title" : "Harborne Food School",
+    "subtitle" : "Culinary Education",
+    "date" : "November 2014",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/harborne/harborne.jpg",
+    "cardImgSrc" : "assets/images/websites/harborne/harborne.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://harbornefoodschool.co.uk/",
+    "position" : "2"
+},
+{
+    "title" : "Fitlight",
+    "subtitle" : "Agility Training Products",
+    "date" : "October 2014",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/fitlight/fitlight.jpg",
+    "cardImgSrc" : "assets/images/websites/fitlight/fitlight.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://www.fitlighttraining.com/",
+    "position" : "5"
+},
+{
+    "title" : "Public Interest",
+    "subtitle" : "Community Engagement",
+    "date" : "May 2015",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/public-interest/public-interest.jpg",
+    "cardImgSrc" : "assets/images/websites/public-interest/public-interest.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://www.publicinterest.ca/",
+    "position" : "4"
+},
+{
+    "title" : "Canadian Lymphedema Framework",
+    "subtitle" : "Lymphedema Education",
+    "date" : "May 2015",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/clf/clf.jpg",
+    "cardImgSrc" : "assets/images/websites/clf/clf.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://canadalymph.ca/",
+    "position" : "4"
+},
+{
+    "title" : "Toronto Dominican Consulate",
+    "subtitle" : "Travel Information",
+    "date" : "June 2015",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/dominican-consulate/dominican-consulate.jpg",
+    "cardImgSrc" : "assets/images/websites/dominican-consulate/dominican-consulate.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://dominicanconsulate.ca/",
+    "position" : "0"
+},
+{
+    "title" : "Eight Branches",
+    "subtitle" : "Eastern Medicine",
+    "date" : "October 2014",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/eight-branches/eight-branches.jpg",
+    "cardImgSrc" : "assets/images/websites/eight-branches/eight-branches.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://www.eightbranches.ca/",
+    "position" : "0"
+},
+{
+    "title" : "Gold Standard Physio",
+    "subtitle" : "Physiotherapy",
+    "date" : "November 2014",
+    "content" : "<h4 class=\"md-title\">Description</h4>\n<p class=\"md-body-1\"></p>\n<h4 class=\"md-title\">Process</h4>\n<p class=\"md-body-1\"></p>",
+    "picture" : "assets/images/websites/gold-standard/gold-standard.jpg",
+    "cardImgSrc" : "assets/images/websites/gold-standard/gold-standard.jpg",
+    "roles" : [
+        "Web Designer",
+        "Web Developer"
+    ],
+    "tags" : [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Responsive",
+        "Photoshop"
+    ],
+    "appLink" : "http://www.goldstandardphysio.com/",
+    "position" : "0"
 }]

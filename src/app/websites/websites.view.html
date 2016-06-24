@@ -15,12 +15,12 @@
         <a class="md-whiteframe-z1" ob-lazytube href="{{vm.website.youtubeLink}}">The Sandwich</a>
       </div>
     </div>
-    <md-card class="md-padding no-margin-h portfolio-content" layout="row" layout-wrap layout-align="center start">
+    <md-card class="md-padding no-margin-h portfolio-content" layout="row" layout-wrap>
       <div layout="row" layout-wrap>
-        <div ng-if="vm.website.picture" flex="50" class="padding-r padding-b">
+        <div ng-if="vm.website.picture" flex="50" flex-sm="100" flex-xs="100" class="padding-r padding-b">
           <img ng-cloak ng-src="{{vm.website.picture}}"/>
         </div>
-        <div flex class="card-content">
+        <div flex="50" flex-sm="100" flex-xs="100" class="card-content">
           <md-button ng-if="vm.website.appLink" href="{{vm.website.appLink}}" target="_blank"  class="md-primary md-raised no-margin-l no-margin-t">
             Visit Website
             <md-icon class="material-icons">launch</md-icon>
